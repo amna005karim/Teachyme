@@ -1,0 +1,151 @@
+ *{
+    margin: 0;
+    padding: 0;  
+}
+.main-container {
+    background-color: #ff9f45;
+    width: 100%;
+    height: 635px;
+}
+ 
+.myform{
+    margin-left: 31%;
+}
+.mylogo{
+    margin-left: 18%;
+}
+.imagess  {
+    margin-top:4%;
+}
+.headingtext{
+    color: #fff;
+    margin-top: 9% ;
+}
+.imagefirst{
+    margin-top: 15%;
+}
+.imagetext{
+    margin-top: 10%;
+}
+.textimage{
+    margin-top: 8%;
+}
+
+.teachme{
+    color: #fff;
+}
+.classes{
+    margin-top: 16% ;
+}
+.textclasse{
+    margin-top: 24% ;
+}
+
+.textclasse2{
+    margin-top: 24% ;
+}
+
+ 
+.footercolor{
+    background-color: #ff774f;
+    width:70% ;
+    height: 220px;
+    border-radius: 30px;
+    float: center;
+    margin-top: 7%;
+    position: relative;
+    top: 140px;
+    z-index: 30;
+   
+}
+
+.classroom{
+    text-align: center;
+    padding-top: 50px;
+    font-family: bold;
+    color: #fff;    
+}
+
+.becometeacher{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+   margin-top: 35px;
+}
+.container-fluid-mainfooter{
+    background-color: #0c254a;
+    width: 100%;
+    height: 550px;
+}
+.one{  
+    background-color: rgb(180, 179, 179);
+}
+ p a {
+    color: rgb(180, 179, 179);
+}
+p a:hover{
+    color: rgb(180, 179, 179);
+    text-decoration: none;
+
+}
+.two{
+    background-color: rgb(180, 179, 179);
+}
+
+
+ @media  (max-width :800px){
+    .mainfooter22{
+        height: 206%;
+       
+        background-color: #0c254a;
+      
+    }
+    .footercolor{
+        margin: 70px;
+    }
+    .main-container{
+        height: 800px;
+        background-color: #ff9f45;
+        width: 100%;
+
+    }
+    .one{
+        display: none;
+    }
+    .two{
+        display: flex;
+    }
+   
+} 
+ @media  (min-width :768px){
+    .mainfooter22{
+        height: 50px;
+        background-color: #0c254a;
+    }
+    .two{
+        display: none;
+    }
+ 
+} 
+@media  (min-width :2560px){
+    .logoooo1{
+        width: 790px;
+    }
+    .main-container{
+        background-color: #ff9f45;
+        width: 100%;
+        height: 735px;
+    }
+    
+ 
+}
+ 
+
+
+
+/* finisheddddddd endddd */
+ 
+
+
+
+
